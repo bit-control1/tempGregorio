@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  text-align: center;
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+h1 {
+  color: #333;
+}
+
+#temperature-display {
+  margin-top: 20px;
+  font-size: 50px;
+}
+
+#temperature-display div {
+  margin: 10px 0;
+}
+
+#temperature-celsius,
+#temperature-fahrenheit {
+  font-weight: bold;
+  color: #333;
+}
+
+span {
+  font-size: 30px;
+  color: #666;
+}
